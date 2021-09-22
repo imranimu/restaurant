@@ -8,10 +8,8 @@ import Success from './components/Success';
 function App() {
   return (
      <Router>
-        <div className="container">
-		
-            <Header />
-			
+        <div className="container">		
+            <Header />			
             <Switch>
                <Route path="/" exact component={Product} />
                <Route path="/carts" exact component={Cart} />
